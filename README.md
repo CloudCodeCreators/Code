@@ -1,4 +1,4 @@
-# Check_app_registration_and_SPN_v4.0.ps1
+# Post_check_CVE-2025-53786_mitigation.ps1
 
 Exports app registration and SPN including certificates, after mitigating CVE-2025-53786.
 
