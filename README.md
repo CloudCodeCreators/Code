@@ -1,12 +1,10 @@
-# PowerShell Scripts Collection
+# Cloud Code Collection
 
-This repository contains a curated set of PowerShell scripts for **Exchange**, **Azure**, **Microsoft 365** environments and many more to come.
+This repository contains a curated set of PowerShell scripts for **Exchange** environments and many more to come.
 Stay tuned!
 
 ## 📂 Categories
 - [Exchange](Exchange)
-- [Azure](Azure)
-- [Microsoft 365](M365)
 
 ## 🔗 Quick Links
 - **View Online:** [GitHub Pages Site](https://CloudCodeCreators.github.io/Code)
