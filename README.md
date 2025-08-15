@@ -1,4 +1,6 @@
 # Post_check_CVE-2025-53786_mitigation.ps1
+
+[⬇️ Download the script directly](https://github.com/CloudCodeCreators/Code/raw/main/Exchange/Post_check_CVE-2025-53786_mitigation.ps1)
 ## Purpose
 This PowerShell script provides a quick and clear way to validate your Microsoft 365 tenant for exposure to CVE-2025-53786, a vulnerability affecting Exchange Online and related certificate-based authentication.
 
