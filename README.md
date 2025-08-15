@@ -1,25 +1,31 @@
-# Post_check_CVE-2025-53786_mitigation.ps1
-## Purpose
-This week was a lot of fun in patching several Exchange environments in regards to CVE-2025-53786. The HCW was executed with the new option to configure a dedicated Exchange hybrid application in Microsoft Entra ID. As a final step, the cleanup script was fired but we noticed that there was not a lot of output regarding certificates and additional info. So we quickly created a script that checks the older shared service principal and also the newly created dedicated Exchange hybrid application in Microsoft Entra ID.
+# Code Repository
 
-If you manage Exchange hybrid deployments, it’s worth validating service principals and certificates after automated changes, a quick verification script can save hours of troubleshooting. Happy to share the script or walk through the checks.
+Welcome to our Code Repository! This repository contains various scripts, tools, and utilities for system administration, security assessments, and IT operations.
 
-## What It Does
-- Connects to Microsoft Graph for your chosen tenant (supports UPN, tenant domain, or custom domain input)
-- Checks both App Registration and Service Principal for Exchange Online ("Office 365 Exchange Online")
-- Lists and validates all certificates and client secrets, highlighting expired or missing credentials
-- Generates a detailed HTML report for your records
+## Repository Structure
 
-## Why Use This Script?
-This is a rapid assessment tool to help admins quickly check if their tenant is potentially impacted by CVE-2025-53786. It does not remediate, but gives clear visibility into certificate status for Exchange Online identities.
+### 📁 [Exchange/](./Exchange/)
+PowerShell scripts and tools for Microsoft Exchange Server and Exchange Online management, including security assessments and maintenance utilities.
 
-## Usage
-1. Run the script in PowerShell with the required Microsoft Graph permissions (Application.Read.All).
-2. Follow the prompts to select your tenant.
-3. Review the on-screen results and the generated HTML report.
+- **[Post_check_CVE-2025-53786_mitigation.ps1](./Exchange/Post_check_CVE-2025-53786_mitigation.ps1)** - CVE-2025-53786 validation script for Exchange hybrid deployments
 
-> **Note:** This script is for validation only. Always review official Microsoft guidance for mitigation steps.
+## Getting Started
 
+Each folder contains its own README with specific instructions for the tools and scripts contained within. Navigate to the relevant folder to find documentation and usage instructions for specific tools.
 
-[📥 Download Script](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/Post_check_CVE-2025-53786_mitigation.ps1)
+## Contributing
+
+When adding new scripts or tools:
+1. Place them in the appropriate category folder
+2. Include comprehensive documentation
+3. Add usage examples and prerequisites
+4. Update the relevant README files
+
+## Support
+
+For issues or questions about specific tools, please refer to the documentation in each folder or create an issue in this repository.
+
+---
+
+*This repository is maintained for educational and administrative purposes. Always test scripts in a non-production environment before deploying to production systems.*
 
