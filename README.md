@@ -1,6 +1,6 @@
 # Cloud Code Collection
 
-This repository contains a curated set of PowerShell scripts for **Exchange** environments and many more to come.
+This repository contains a curated set of PowerShell scripts for **Exchange** environments with Microsoft 365, Azure, Intune and many more to come.
 Stay tuned!
 
 ## 📂 Categories
