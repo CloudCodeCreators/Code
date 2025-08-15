@@ -1,20 +1,5 @@
-# Cloud Code Collection
-
-This repository contains a curated set of PowerShell scripts for **Exchange** environments with Microsoft 365, Azure, Intune and many more to come.
-Stay tuned!
-
-## 📂 Categories
-- [Exchange](Exchange)
-
-## 🔗 Quick Links
-- **View Online:** [GitHub Pages Site](https://CloudCodeCreators.github.io/Code)
-- **Clone Repo:**
-  ```powershell
-  git clone https://github.com/CloudCodeCreators/Code.git
-
-
-
 # Post_check_CVE-2025-53786_mitigation.ps1
+
 ## Purpose
 This PowerShell script provides a quick and clear way to validate your Microsoft 365 tenant for exposure to CVE-2025-53786, a vulnerability affecting Exchange Online and related certificate-based authentication.
 
@@ -33,7 +18,3 @@ This is a rapid assessment tool to help admins quickly check if their tenant is 
 3. Review the on-screen results and the generated HTML report.
 
 > **Note:** This script is for validation only. Always review official Microsoft guidance for mitigation steps.
-
-
-[📥 Download Script](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/Post_check_CVE-2025-53786_mitigation.ps1)
-
