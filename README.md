@@ -20,4 +20,5 @@ Stay tuned!
 
 Exports app registration and SPN including certificate, after mitigating CVE-2025-53786.
 
-[📥 Download Script](https://raw.githubusercontent.com/test.ps1)
+[📥 Download Script](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/Post_check_CVE-2025-53786_mitigation.ps1)
+
