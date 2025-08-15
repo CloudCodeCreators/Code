@@ -15,7 +15,7 @@
 ### Exchange/
 Microsoft Exchange Server and Exchange Online management tools, focusing on security assessments and maintenance utilities.
 
-**Featured Tool:** CVE-2025-53786 Mitigation Validator - A comprehensive validation script for Exchange hybrid deployments to verify proper CVE-2025-53786 mitigation.
+**[Featured Tool: CVE-2025-53786 Mitigation Validator](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/README.md)** - A comprehensive validation script for Exchange hybrid deployments to verify proper CVE-2025-53786 mitigation.
 
 **[View Exchange Documentation →](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/README.md)**
 
