@@ -14,7 +14,10 @@ If you manage Exchange hybrid deployments, it's worth validating service princip
 ## What It Does
 - Connects to Microsoft Graph for your chosen tenant (supports UPN, tenant domain, or custom domain input)
 - Checks both App Registration and Service Principal for Exchange Online ("Office 365 Exchange Online")
+- Validates the newly created dedicated Exchange hybrid app (`ExchangeServerApp-{Guid}`) has proper certificates and permissions
+- Confirms the legacy shared service principal ("Office 365 Exchange Online") has no remaining certificates after cleanup
 - Lists and validates all certificates and client secrets, highlighting expired or missing credentials
+- **After successful cleanup, the shared service principal should have no remaining certificates (this is the expected secure state)**
 - Generates a detailed HTML report for your records
 
 ## Why Use This Script?
@@ -48,7 +51,7 @@ The script generates:
 
 > **⚠️ Important Note:** This script is for validation only. Always review official Microsoft guidance for mitigation steps and follow your organization's change management procedures.
 
-## Blog Post
+## Blog Post (Coming Soon)
 For detailed insights into CVE-2025-53786 and the remediation process, check out our blog post that covers:
 - Understanding the vulnerability
 - Impact assessment
