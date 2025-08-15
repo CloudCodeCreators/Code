@@ -7,7 +7,7 @@ Welcome to our Code Repository! This repository contains various scripts, tools,
 ### 📁 [Exchange/](./Exchange/)
 PowerShell scripts and tools for Microsoft Exchange Server and Exchange Online management, including security assessments and maintenance utilities.
 
-- **[Post check CVE-2025-53786 mitigation](./Exchange/Post_check_CVE-2025-53786_mitigation.ps1)** - CVE-2025-53786 validation script for Exchange hybrid deployments
+- **[Post check CVE-2025-53786 mitigation](https://github.com/CloudCodeCreators/Code/blob/main/Exchange/README.md)** - CVE-2025-53786 validation script for Exchange hybrid deployments
 
 ## Getting Started
 
